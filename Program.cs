@@ -5,7 +5,7 @@ namespace operators
    class Program
    {
        static void Main(string[] args)
-       {    Console.WriteLine("***** atama ve islemli atama Operatorler*****");
+       {    Console.WriteLine("***** atama ve islemli atama Operatorler *****");
            //atama ve islemli atama
            int x= 3;
            int y= 3 ;
@@ -17,7 +17,7 @@ namespace operators
            Console.WriteLine(y);
            x*=2 ;
            Console.WriteLine(x);
-            Console.WriteLine("***** Mantiksal Operatorler*****");
+            Console.WriteLine("***** Mantiksal Operatorler *****");
            //Mantiksal Operatorler
            // ||,&&, !
 
@@ -31,7 +31,7 @@ namespace operators
            if(isSuccess&& !isCompleted)
                 Console.WriteLine("Fine!!");
 
-            Console.WriteLine("***** iliskisel operatoreler*****");
+            Console.WriteLine("***** iliskisel operatoreler *****");
             //iliskisel operatoreler
             // <, >, <=, >=, ==, !=
 
@@ -50,6 +50,26 @@ namespace operators
             result = a!=b;
             Console.WriteLine(result);
             
+            
+            Console.WriteLine("***** Artirmetik Operatorler *****");
+            // Artirmetik Operatorler
+            // /, *, +, -  
+
+            int number1 = 10 ;
+            int number2 = 5;
+            int result1 = number1/number2 ;
+
+            Console.WriteLine(result1);
+
+            result1= number1*number2 ;
+            Console.WriteLine(result1);
+            
+            result1= number1+number2 ;
+            Console.WriteLine(result1);
+            
+            result1= number1-number2 ;
+            Console.WriteLine(result1);
+
 
         Console.ReadLine(); 
 
