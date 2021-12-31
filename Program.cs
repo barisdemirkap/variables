@@ -69,6 +69,14 @@ namespace operators
             
             result1= number1-number2 ;
             Console.WriteLine(result1);
+            result1= number1++ ;
+            Console.WriteLine(result1);
+
+            // % : mod alir
+
+            int result2 = 20%3 ;
+
+            Console.WriteLine(result2);
 
 
         Console.ReadLine(); 
